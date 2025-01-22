@@ -1,0 +1,94 @@
+.license-plate {
+  background: white;
+  padding: 4px;
+  width: 100%;
+  max-width: 330px;
+  border-radius: 10px;
+  transform: scale(2);
+}
+
+.red-border {
+  background: red;
+  box-shadow: inset -2px -2px 2px 0px #680d0d85, inset 2px 2px 2px 0px #ffababab;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.license-plate-content {
+  background: white;
+  border: 2px solid white;
+  overflow: hidden;
+  border-radius: 6px;
+  display: flex;
+}
+
+.eu-badge-region {
+  background: #055ba7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 8px 12px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.eu-badge-region-gradient {
+  width: 400%;
+  height: 400%;
+  position: absolute;
+  background-image: linear-gradient(90deg, rgba(5,91,167,1) 14%, rgba(4,120,188,1) 28%, rgba(2,161,218,1) 41%, rgba(0,212,255,1) 50%, rgba(2,161,218,1) 61%, rgba(4,118,187,1) 73%, rgba(5,91,167,1) 87%);
+  background-size: 200%;
+  transform: rotate(45deg);
+  opacity: 0.1;
+}
+
+.eu-badge-holo-strip-container {
+  width: 8px;
+  background-size: contain;
+  background-image: url('https://fa.ggot.dk/holo/holo-strip-tile-close.png');
+  position: relative;
+  overflow: hidden;
+}
+
+.eu-badge-holo-strip-gradient {
+  left: -300px;
+  top: -300px;
+  right: -300px;
+  bottom: -300px;
+  opacity: 0.69;
+  position: absolute;
+
+  transform: rotateZ(90deg);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  background-size: 50%;
+  mix-blend-mode: screen;
+}
+
+.plate-letter {
+  font-family: monospace;
+  background-color:transparent;
+  box-shadow: none;
+  margin: 0 12px;
+  font-size: 2.3rem;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+}

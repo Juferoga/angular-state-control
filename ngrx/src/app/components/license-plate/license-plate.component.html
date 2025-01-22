@@ -1,0 +1,37 @@
+<div class="license-plate">
+  <div class="red-border">
+    <div class="license-plate-content">
+      <div class="eu-badge-region">
+        <div id="lens-flare" class="eu-badge-region-gradient"></div>
+        <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30">
+          <g id="s" transform="translate(150,30)" fill="#fc0">
+            <g id="c">
+              <path id="t" d="M 0,-20 V 0 H 10" transform="rotate(18 0,-20)"/>
+              <use xlink:href="#t" transform="scale(-1,1)"/>
+            </g>
+            <use xlink:href="#c" transform="rotate(72)"/>
+            <use xlink:href="#c" transform="rotate(144)"/>
+            <use xlink:href="#c" transform="rotate(216)"/>
+            <use xlink:href="#c" transform="rotate(288)"/>
+          </g>
+          <use xlink:href="#s" transform="rotate(30 150,150) rotate(330 150,30)"/>
+          <use xlink:href="#s" transform="rotate(60 150,150) rotate(300 150,30)"/>
+          <use xlink:href="#s" transform="rotate(90 150,150) rotate(270 150,30)"/>
+          <use xlink:href="#s" transform="rotate(120 150,150) rotate(240 150,30)"/>
+          <use xlink:href="#s" transform="rotate(150 150,150) rotate(210 150,30)"/>
+          <use xlink:href="#s" transform="rotate(180 150,150) rotate(180 150,30)"/>
+          <use xlink:href="#s" transform="rotate(210 150,150) rotate(150 150,30)"/>
+          <use xlink:href="#s" transform="rotate(240 150,150) rotate(120 150,30)"/>
+          <use xlink:href="#s" transform="rotate(270 150,150) rotate(90 150,30)"/>
+          <use xlink:href="#s" transform="rotate(300 150,150) rotate(60 150,30)"/>
+          <use xlink:href="#s" transform="rotate(330 150,150) rotate(30 150,30)"/>
+        </svg>
+        <span style="margin-top: 5px; line-height: 100%;">{{plate.country}}</span>
+      </div>
+      <div class="eu-badge-holo-strip-container">
+        <div id="holographic" class="eu-badge-holo-strip-gradient"></div>
+      </div>
+      <span class="plate-letter">{{plate.plate}}</span>
+    </div>
+  </div>
+</div>
